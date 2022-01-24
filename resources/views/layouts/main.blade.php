@@ -8,6 +8,8 @@
   <title>Laravel Model Controller</title>
 </head>
 <body>
+  
+  @include('partials.header')
 
   @yield('content')
 

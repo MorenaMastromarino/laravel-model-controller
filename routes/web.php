@@ -15,3 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'MovieController@index')->name('movies');
+
+Route::get('/chi-siamo', 'PageController@about')->name('about');
+
+
+Route::get('/contatti', 'PageController@contacts')->name('contacts');
+
+
